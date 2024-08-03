@@ -3,21 +3,18 @@
     "version": ">= 10.2.2"
   },
   "build": {
+    "image": "default",
     "development": {
       "developmentClient": true,
       "distribution": "internal",
       "ios": {
         "simulator": true
-      },
-      "image": "default"
+      }
     },
     "preview": {
-      "distribution": "internal",
-      "image": "default"
+      "distribution": "internal"
     },
-    "production": {
-      "image": "default"
-    }
+    "production": {}
   },
   "submit": {
     "production": {}
