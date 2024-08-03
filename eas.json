@@ -8,12 +8,16 @@
       "distribution": "internal",
       "ios": {
         "simulator": true
-      }
+      },
+      "image": "default"
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "image": "default"
     },
-    "production": {}
+    "production": {
+      "image": "default"
+    }
   },
   "submit": {
     "production": {}
